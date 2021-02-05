@@ -1,0 +1,17 @@
+{
+  "name": "curious-crud",
+  "version": "0.0.1",
+  "description": "",
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "nullstack": "~0.9.0"
+  },
+  "scripts": {
+    "start": "npx webpack --config node_modules/nullstack/webpack.config.js --mode=development --watch",
+    "build": "npx webpack --config node_modules/nullstack/webpack.config.js --mode=production"
+  },
+  "dependencies": {
+    "mysql2": "^2.2.5"
+  }
+}
